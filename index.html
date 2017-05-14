@@ -1,0 +1,17 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+		<h1 id="quote"></h1>
+
+		<script>
+			var quotations = ['"We can only see a short distance ahead, but we can see plenty there that needs to be done."', '"You can do anything, but not everything."', '"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."'];
+
+			var index = Math.floor((Math.random() * 3) + 1 );
+			//console.log(index);
+			document.getElementById('quote').innerHTML = quotations[index-1];
+		</script>
+	</body>
+</html>
